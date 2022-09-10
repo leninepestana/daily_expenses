@@ -1,1 +1,1 @@
-# daily_expenses
+# Daily Expenses
