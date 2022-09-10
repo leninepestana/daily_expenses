@@ -29,8 +29,9 @@ const App = (props) => {
   const [expenses, setExpenses] = useState(DUMMY_DATA);
 
   const addExpenseHandler = (enteredExpense) => {
-    const expenseData = { ...enteredExpense, id: props.id };
-    console.log(expenseData);
+    setExpenses((prevExpenses) => {
+      return [...prevExpenses, enteredExpense];
+    });
   };
 
   return (
