@@ -35,10 +35,6 @@
   border-radius: 12px;
 }
 
-.expense-btn {
-  padding: 0.5rem;
-}
-
 @media (min-width: 580px) {
   .expense-item__description {
     flex-direction: row;
